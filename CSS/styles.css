@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+.title {
+  text-align: center;
+  color: black;
+}
+
+.main {
+  display: block;
+  width: 320px;
+  height: 415px;
+  margin: 150px 300px 150px 500px;
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 1px 2px 5px;
+  outline: transparent;
+  font-family: "poppins";
+  font-weight: medium;
+  font-size: 10px;
+  position: relative;
+  background: #ffffff;
+}
+
+.first {
+  display: block;
+  width: 210px;
+  height: 30px;
+  margin: auto;
+  border: transparent;
+  box-shadow: 1px 2px 5px;
+  position: absolute;
+  padding-left: 35px;
+  padding-right: 75px;
+}
+
+.full-name,
+.nationality,
+.phone-number,
+.dob,
+.origin {
+  color: #d0d0d0;
+  margin-left: 10px;
+  letter-spacing: 1.25px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.cand-details {
+  margin-top: 120px;
+  border: transparent;
+}
+
+@media screen and (max-width: 750px) {
+  .main {
+    margin: 50px 100px 50px 250px;
+    width: 210px;
+    height: 365px;
+  }
+
+  .first {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    border: transparent;
+    box-shadow: 1px 2px 5px;
+    position: absolute;
+    padding-left: 35px;
+    padding-right: 75px;
+  }
+
+  .full-name,
+  .nationality,
+  .phone-number,
+  .dob,
+  .origin {
+    color: #d0d0d0;
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+
+  .cand-details {
+    margin-top: 90px;
+    border: transparent;
+  }
+}
+
